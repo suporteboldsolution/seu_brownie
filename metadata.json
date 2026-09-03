@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Seu Brownie - O Brownie da Bahia",
+  "description": "Site para marca de brownies artesanais baianos com história, cardápio interativo, depoimentos e pedido direto via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

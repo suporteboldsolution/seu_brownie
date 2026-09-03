@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-bebas: 'Bebas Neue', cursive, sans-serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-spartan: 'League Spartan', sans-serif;
+  --font-oswald: 'Oswald', sans-serif;
+
+  /* Official Brand Book Palette */
+  --color-chocolate-escuro: #2B1D18;
+  --color-kraft-natural: #C9A77C;
+  --color-caramelo: #A66A3F;
+  --color-preto-premium: #151515;
+  --color-creme: #F8F4EE;
+  --color-bege-claro: #E8D8C4;
+}
+
+@layer utilities {
+  .font-title {
+    font-family: 'Bebas Neue', cursive, sans-serif;
+  }
+  .font-body {
+    font-family: 'Inter', sans-serif;
+  }
+  .font-support {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .font-price {
+    font-family: 'League Spartan', sans-serif;
+  }
+  .font-cta {
+    font-family: 'Oswald', sans-serif;
+  }
+  .font-script {
+    font-family: 'Bebas Neue', cursive, sans-serif;
+  }
+  .font-poppins {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+/* Custom scrollbar in Brand Book colors */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #151515;
+}
+::-webkit-scrollbar-thumb {
+  background: #A66A3F;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C9A77C;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #151515;
+  color: #F8F4EE;
+  overflow-x: hidden;
+}
